@@ -1,0 +1,39 @@
+export default class Vacancy {
+    constructor(data = null) {
+        this.address = data.address;
+        this.baseindex = data.baseindex;
+        this.clientid = data.clientid;
+        this.clientname = data.clientname;
+        this.directionid = data.directionid;
+        this.directiontitle = data.directiontitle;
+        this.flghot = data.flghot;
+        this.flgstemmer = data.flgstemmer;
+        this.is_active = data.is_active;
+        this.latitude = data.latitude;
+        this.longitude = data.longitude;
+        this.numentries = data.numentries;
+        this.numgeoentries = data.numgeoentries;
+        this.placeid = data.placeid;
+        this.placetitle = data.placetitle;
+        this.profid = data.profid;
+        this.proftitle = data.proftitle;
+        this.region_id = data.region_id;
+        this.regionname = data.regionname;
+        this.salary_day = data.salary_day;
+        this.salary_hour = data.salary_hour;
+        this.salary_month = data.salary_month;
+        this.salary_type = data.salary_type;
+        this.salary_type_title = data.salary_type_title;
+        this.salary_volume = data.salary_volume;
+        this.salary_volume_ex = data.salary_volume_ex;
+        this.salary_week = data.salary_week;
+        this.search_desc = data.search_desc;
+        this.search_geo = data.search_geo;
+        this.stafftype = data.stafftype;
+        this.stationname = data.stationname;
+        this.vacancy_id = data.vacancy_id;
+        this.vacplacement_id = data.vacplacement_id;
+        this.vdescription = data.vdescription;
+        this.websitevacancynum = data.websitevacancynum;
+    }
+}
